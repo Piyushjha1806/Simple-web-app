@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Building Piyush's Simple Web App"
+      - echo "Build completed on $(date)"
+artifacts:
+  files:
+    - '**/*'

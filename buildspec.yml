@@ -3,11 +3,13 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing dependencies (if any)..."
+      - echo "Nothing to install"
+
   build:
     commands:
-      - echo "Building Piyush's Simple Web App..."
-      - echo "Build timestamp: $(date)"
+      - echo "Build started"
+      - echo "Build completed"
+
 artifacts:
   files:
     - '**/*'
